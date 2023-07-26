@@ -3,6 +3,7 @@ import laravel from 'laravel-vite-plugin';
 import autoprefixer from "autoprefixer";
 import * as path from 'path'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
+import cfg from './app.config.js'
 
 export default defineConfig({
 
@@ -38,43 +39,48 @@ export default defineConfig({
 
   plugins: [
 
-      laravel({
-          input: [
-              'src/bootstrap-icons.scss',
-              'src/font-nunito.scss',
-              'src/font-opensans.scss',
-              'src/font-poppins.scss',
-              'src/font-roboto.scss',
-              'src/font-ubuntu.scss',
-          ],
-          refresh: true,
-          // buildDirectory: '',
-      }),
+    laravel({
+      input: [
+        'src/bootstrap-icons.scss',
+        'src/font-nunito.scss',
+        'src/font-opensans.scss',
+        'src/font-poppins.scss',
+        'src/font-roboto.scss',
+        'src/font-ubuntu.scss',
+      ],
+      refresh: true,
+      // buildDirectory: '',
+    }),
 
-      viteStaticCopy({
-        targets: [
-          {
-            src: './node_modules/bootstrap-icons/font/fonts/*',
-            dest: '../dist/bootstrap-icons/fonts',
-          },
-          {
-            src: './node_modules/bootstrap-icons/icons/*',
-            dest: '../dist/bootstrap-icons/icons',
-          },
-          {
-            src: './src/fonts/*',
-            dest: '../dist/fonts',
-          },
-        ],
-      })
+    viteStaticCopy({
+      targets: [
+        {
+          src: './node_modules/bootstrap-icons/font/fonts/*',
+          dest: '../dist/bootstrap-icons/fonts',
+        },
+        {
+          src: './node_modules/bootstrap-icons/icons/*',
+          dest: '../dist/bootstrap-icons/icons',
+        },
+        {
+          src: './src/fonts/*',
+          dest: '../dist/fonts',
+        },
+      ],
+    })
   ],
 
   css: {
-      postcss: {
-          plugins: [
-              autoprefixer,
-          ],
-      }
+    preprocessorOptions: {
+      scss: {
+        additionalData: cfg.sassAdditionalData,
+      },
+    },
+    postcss: {
+      plugins: [
+        autoprefixer,
+      ],
+    }
   },
 
 });
