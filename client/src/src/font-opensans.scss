@@ -1,0 +1,6 @@
+@import 'vars';
+
+$path: '#{$basepath}fonts/OpenSans/'; // production
+// $path: ''; // dev
+
+@import './fonts/OpenSans/OpenSans';

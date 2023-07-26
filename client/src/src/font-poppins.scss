@@ -1,0 +1,6 @@
+@import 'vars';
+
+$path: '#{$basepath}fonts/Poppins/'; // production
+// $path: ''; // dev
+
+@import './fonts/Poppins/Poppins';

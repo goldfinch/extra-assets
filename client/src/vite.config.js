@@ -41,6 +41,11 @@ export default defineConfig({
       laravel({
           input: [
               'src/bootstrap-icons.scss',
+              'src/font-nunito.scss',
+              'src/font-opensans.scss',
+              'src/font-poppins.scss',
+              'src/font-roboto.scss',
+              'src/font-ubuntu.scss',
           ],
           refresh: true,
           // buildDirectory: '',

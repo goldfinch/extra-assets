@@ -3,5 +3,30 @@
     "file": "bootstrap-icons.css",
     "isEntry": true,
     "src": "src/bootstrap-icons.scss"
+  },
+  "src/font-nunito.scss": {
+    "file": "font-nunito.css",
+    "isEntry": true,
+    "src": "src/font-nunito.scss"
+  },
+  "src/font-opensans.scss": {
+    "file": "font-opensans.css",
+    "isEntry": true,
+    "src": "src/font-opensans.scss"
+  },
+  "src/font-poppins.scss": {
+    "file": "font-poppins.css",
+    "isEntry": true,
+    "src": "src/font-poppins.scss"
+  },
+  "src/font-roboto.scss": {
+    "file": "font-roboto.css",
+    "isEntry": true,
+    "src": "src/font-roboto.scss"
+  },
+  "src/font-ubuntu.scss": {
+    "file": "font-ubuntu.css",
+    "isEntry": true,
+    "src": "src/font-ubuntu.scss"
   }
 }
