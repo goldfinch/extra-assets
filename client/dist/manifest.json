@@ -1,0 +1,7 @@
+{
+  "src/bootstrap-icons.scss": {
+    "file": "bootstrap-icons.css",
+    "isEntry": true,
+    "src": "src/bootstrap-icons.scss"
+  }
+}
