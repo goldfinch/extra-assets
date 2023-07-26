@@ -49,8 +49,12 @@ export default defineConfig({
       viteStaticCopy({
         targets: [
           {
+            src: './node_modules/bootstrap-icons/font/fonts/*',
+            dest: '../dist/bootstrap-icons/fonts',
+          },
+          {
             src: './node_modules/bootstrap-icons/icons/*',
-            dest: '../dist/bootstrap-icons',
+            dest: '../dist/bootstrap-icons/icons',
           },
         ],
       })
