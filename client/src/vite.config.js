@@ -61,6 +61,10 @@ export default defineConfig({
             src: './node_modules/bootstrap-icons/icons/*',
             dest: '../dist/bootstrap-icons/icons',
           },
+          {
+            src: './src/fonts/*',
+            dest: '../dist/fonts',
+          },
         ],
       })
   ],
