@@ -1,4 +1,9 @@
 {
+  "src/bootstrap-icons-with-reset.scss": {
+    "file": "bootstrap-icons-with-reset.css",
+    "isEntry": true,
+    "src": "src/bootstrap-icons-with-reset.scss"
+  },
   "src/bootstrap-icons.scss": {
     "file": "bootstrap-icons.css",
     "isEntry": true,
