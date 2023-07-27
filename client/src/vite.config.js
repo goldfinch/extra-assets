@@ -56,6 +56,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
       laravel({
         input: [
           'src/bootstrap-icons.scss',
+          'src/bootstrap-icons-with-reset.scss',
           'src/font-nunito.scss',
           'src/font-opensans.scss',
           'src/font-poppins.scss',
