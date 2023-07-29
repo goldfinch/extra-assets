@@ -183,9 +183,9 @@
 
   @extend .bi, .bi-trash3-fill;
 
-  &:before {
-    top: 2px;
-  }
+  // &:before {
+  //   top: 2px;
+  // }
 }
 
 .cms-login-status__logout-link.font-icon-logout {
