@@ -1,4 +1,4 @@
-# /client/src       export-ignore
+/client/src       export-ignore
 /.gitattributes   export-ignore
 /.gitignore       export-ignore
 /.github          export-ignore
