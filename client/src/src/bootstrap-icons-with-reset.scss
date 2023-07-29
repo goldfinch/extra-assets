@@ -374,16 +374,26 @@ $brand-danger: #d5041b;
 .bulk-actions__action.font-icon-folder-move {
 
   @extend .bi, .bi-folder-symlink-fill;
+
+  &:before {
+    position: relative;
+    top: 1px;
+  }
 }
 
 .gallery-item__checkbox-label.font-icon-tick {
 
-  @extend .bi, .bi-check;
+  @extend .bi, .bi-check-lg;
 }
 
+.font-icon-search,
 .search-toggle.font-icon-search {
 
   @extend .bi, .bi-search;
+
+  &:before {
+    font-size: 16px;
+  }
 }
 
 .font-icon-search.btn--icon-large {
