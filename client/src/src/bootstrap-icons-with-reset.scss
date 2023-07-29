@@ -337,3 +337,53 @@ $brand-danger: #d5041b;
     color: $brand-danger;
   }
 }
+
+
+.font-icon-list {
+
+  @extend .bi, .bi-card-list; // .bi-list-task
+
+  &:before {
+
+  }
+}
+
+.page-view-link.font-icon-list {
+
+  &:before {
+    font-size: 18px;
+  }
+}
+
+.font-icon-tree {
+
+  @extend .bi, .bi-diagram-3-fill;
+
+  &:before {
+
+  }
+}
+
+.page-view-link.font-icon-tree {
+
+  &:before {
+    font-size: 18px;
+  }
+}
+
+.font-icon-search {
+
+  @extend .bi, .bi-search;
+}
+
+.font-icon-search.btn--icon-large {
+  font-size: 16px;
+}
+
+.font-icon-cancel {
+
+  @extend .bi, .bi-x;
+}
+.font-icon-cancel.btn--icon-lg {
+  font-size: 16px;
+}
