@@ -371,7 +371,17 @@ $brand-danger: #d5041b;
   }
 }
 
-.font-icon-search {
+.bulk-actions__action.font-icon-folder-move {
+
+  @extend .bi, .bi-folder-symlink-fill;
+}
+
+.gallery-item__checkbox-label.font-icon-tick {
+
+  @extend .bi, .bi-check;
+}
+
+.search-toggle.font-icon-search {
 
   @extend .bi, .bi-search;
 }
