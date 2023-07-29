@@ -2,6 +2,9 @@
 
 @import '../node_modules/bootstrap-icons';
 
+$brand-success: #45ac73;
+$brand-danger: #d5041b;
+
 .cms-login-status__profile-link .font-icon-torso {
 
   @extend .bi, .bi-person-circle;
@@ -224,6 +227,7 @@
 // }
 
 .gallery-item__thumbnail {
+  background: unset;
 
   @extend .bi, .bi-folder-fill;
 
@@ -232,5 +236,100 @@
     position: relative;
     top: 15px;
     left: -10px;
+  }
+}
+
+.gallery__table-image--folder {
+  background-image: unset;
+  width: 24px;
+  height: 24px;
+
+  @extend .bi, .bi-folder-fill;
+
+  &:before {
+    font-size: 24px;
+  }
+}
+
+.gallery__table-image--archive {
+  background-image: unset;
+  width: 24px;
+  height: 24px;
+
+  @extend .bi, .bi-file-earmark-medical-fill;
+
+  &:before {
+    font-size: 24px;
+  }
+}
+
+.gallery__table-image--audio {
+  background-image: unset;
+  width: 24px;
+  height: 24px;
+
+  @extend .bi, .bi-file-earmark-music-fill;
+
+  &:before {
+    font-size: 24px;
+  }
+}
+
+.gallery__table-image--video {
+  background-image: unset;
+  width: 24px;
+  height: 24px;
+
+  @extend .bi, .bi-file-earmark-play-fill;
+
+  &:before {
+    font-size: 24px;
+  }
+}
+
+.alert.alert-success,
+.alert.alert-danger {
+
+  margin-bottom: 20px;
+
+  a {
+    text-decoration: none;
+  }
+
+  &:before {
+    position: relative;
+    margin-right: 15px;
+    font-size: 20px;
+    line-height: 1px;
+    top: 3px;
+  }
+}
+.alert.alert-success {
+
+  @extend .bi, .bi-check-circle-fill;
+
+  color: $brand-success;
+
+  a {
+    color: darken($brand-success, 10);
+  }
+
+  &:before {
+    color: $brand-success;
+  }
+}
+
+.alert.alert-danger {
+
+  @extend .bi, .bi-x-circle-fill;
+
+  color: $brand-danger;
+
+  a {
+    color: darken($brand-danger, 10);
+  }
+
+  &:before {
+    color: $brand-danger;
   }
 }
