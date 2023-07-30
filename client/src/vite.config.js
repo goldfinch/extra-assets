@@ -15,6 +15,10 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
 
   return {
 
+    esbuild: {
+      charset: 'ascii' // fixing issue with unicode HTML entities in content: '';
+    },
+
     resolve: {
         alias: {
             '~bootstrap-icons': path.resolve(__dirname, 'node_modules/bootstrap-icons/icons'),
@@ -86,6 +90,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
     ],
 
     css: {
+
       preprocessorOptions: {
         scss: {
           additionalData: cfg.sassAdditionalData,
