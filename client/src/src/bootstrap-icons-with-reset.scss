@@ -111,6 +111,64 @@ $brand-danger: #d5041b;
   @extend .bi, .bi-archive-fill;
 }
 
+.dropdown-item.font-icon-box {
+
+  @extend .bi, .bi-archive-fill;
+}
+
+.action--new.font-icon-plus-thin {
+
+  @extend .bi, .bi-plus;
+
+  &:before {
+    font-size: 26px !important;
+    position: relative !important;
+    top: -1px;
+    left: -5px;
+  }
+}
+
+.font-icon-right-open.action--next {
+
+  @extend .bi, .bi-caret-right-fill;
+}
+
+
+.font-icon-right-open.action--next {
+
+  @extend .bi, .bi-caret-right-fill;
+}
+
+.font-icon-left-open.action--previous {
+
+  @extend .bi, .bi-caret-left-fill;
+}
+
+.chosen-single.font-icon-edit-write {
+
+  @extend .bi, .bi-pencil-square;
+}
+
+.font-icon-edit-write.icon-view {
+
+  @extend .bi, .bi-pencil-square;
+}
+
+.font-icon-eye.icon-view {
+
+  @extend .bi, .bi-eye-fill;
+}
+
+.font-icon-eye.icon-view {
+
+  @extend .bi, .bi-eye-fill;
+}
+
+.font-icon-columns.icon-view {
+
+  @extend .bi, .bi-layout-split;
+}
+
 .menu__icon.icon.icon-16.icon-axllent-metaeditor-metaeditor {
   background-image: none;
 
