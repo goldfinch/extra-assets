@@ -122,26 +122,32 @@ $brand-danger: #d5041b;
 
   &:before {
     font-size: 26px !important;
-    position: relative !important;
-    top: -1px;
-    left: -5px;
+    position: absolute !important;
+    top: 2px;
+    left: 2px;
   }
 }
 
 .font-icon-right-open.action--next {
 
   @extend .bi, .bi-caret-right-fill;
-}
 
-
-.font-icon-right-open.action--next {
-
-  @extend .bi, .bi-caret-right-fill;
+  &:before {
+    position: relative;
+    top: 2px;
+    left: -1px;
+  }
 }
 
 .font-icon-left-open.action--previous {
 
   @extend .bi, .bi-caret-left-fill;
+
+  &:before {
+    position: relative;
+    top: 2px;
+    left: 1px;
+  }
 }
 
 .chosen-single.font-icon-edit-write {
