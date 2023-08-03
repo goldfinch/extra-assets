@@ -5,7 +5,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Bold.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Bold.woff2') format('woff2'),
         url('#{$path}Roboto-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -14,7 +14,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-BlackItalic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-BlackItalic.woff2') format('woff2'),
         url('#{$path}Roboto-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
@@ -23,7 +23,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Black.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Black.woff2') format('woff2'),
         url('#{$path}Roboto-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
@@ -32,7 +32,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Italic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Italic.woff2') format('woff2'),
         url('#{$path}Roboto-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
@@ -41,7 +41,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-BoldItalic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-BoldItalic.woff2') format('woff2'),
         url('#{$path}Roboto-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
@@ -50,7 +50,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Light.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Light.woff2') format('woff2'),
         url('#{$path}Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
@@ -59,7 +59,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Medium.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Medium.woff2') format('woff2'),
         url('#{$path}Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -68,7 +68,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-LightItalic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-LightItalic.woff2') format('woff2'),
         url('#{$path}Roboto-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
@@ -77,7 +77,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-MediumItalic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-MediumItalic.woff2') format('woff2'),
         url('#{$path}Roboto-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
@@ -86,7 +86,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Regular.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Regular.woff2') format('woff2'),
         url('#{$path}Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -95,7 +95,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-Thin.woff2') format('woff2'),
+    src: url('#{$path}Roboto-Thin.woff2') format('woff2'),
         url('#{$path}Roboto-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
@@ -104,7 +104,7 @@ $path: '#{$basepath}fonts/Roboto/'; // production
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto'), url('#{$path}Roboto-ThinItalic.woff2') format('woff2'),
+    src: url('#{$path}Roboto-ThinItalic.woff2') format('woff2'),
         url('#{$path}Roboto-ThinItalic.woff') format('woff');
     font-weight: 100;
     font-style: italic;
