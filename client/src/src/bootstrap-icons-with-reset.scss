@@ -289,7 +289,7 @@ $brand-danger: #d5041b;
 // }
 
 .gallery-item.gallery-item--folder .gallery-item__thumbnail {
-  // background: unset !important;
+  background: unset !important;
 
   @extend .bi, .bi-folder-fill;
 
