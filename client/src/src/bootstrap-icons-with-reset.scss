@@ -474,3 +474,14 @@ $brand-danger: #d5041b;
 
   @extend .bi, .bi-chevron-right;
 }
+
+.sortable-item__handle.font-icon-drag-handle {
+
+  @extend .bi, .bi-grip-vertical;
+
+  &:before {
+    transform-style: preserve-3d;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+}
