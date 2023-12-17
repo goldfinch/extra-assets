@@ -485,3 +485,9 @@ $brand-danger: #d5041b;
     top: 50%;
   }
 }
+
+// copy grid
+
+.action-menu .dropdown-item[class*=font-icon-plus]:before {
+  @extend .bi, .bi-plus-circle-dotted;
+}
