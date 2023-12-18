@@ -491,3 +491,23 @@ $brand-danger: #d5041b;
 .action-menu .dropdown-item[class*=font-icon-plus]:before {
   @extend .bi, .bi-plus-circle-dotted;
 }
+
+// error alerts
+
+.validationerror .panel--padded .ui-tabs-nav .tab-attention {
+  margin-top: 6px !important;
+  margin-left: 0px !important;
+
+  @extend .bi, .bi-exclamation-circle-fill;
+}
+
+.field.holder-required .alert.alert-danger {
+  margin-top: 10px;
+  padding: 10px;
+
+  @extend .bi, .bi-exclamation-circle-fill;
+
+  &:before {
+    content: "\f332" !important;
+  }
+}
