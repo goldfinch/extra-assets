@@ -510,6 +510,7 @@ $brand-danger: #d5041b;
 .field.holder-required .alert.alert-danger {
   margin-top: 10px;
   padding: 10px 10px 14px;
+  margin-bottom: 0;
 
   @extend .bi, .bi-exclamation-circle-fill;
 
@@ -526,4 +527,10 @@ form.validationerror .panel > .alert.alert-danger {
   &:before {
     content: "\f332" !important;
   }
+}
+
+.form__field-holder .alert.validation {
+  margin-top: 10px;
+  padding: 10px 10px 11px;
+  margin-bottom: 0;
 }
