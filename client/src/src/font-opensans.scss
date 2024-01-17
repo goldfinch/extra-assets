@@ -5,108 +5,108 @@ $path: '#{$basepath}fonts/OpenSans/'; // production
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
     src: url('#{$path}OpenSans-BoldItalic.woff2') format('woff2'),
         url('#{$path}OpenSans-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
     src: url('#{$path}OpenSans-ExtraBold.woff2') format('woff2'),
         url('#{$path}OpenSans-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
     src: url('#{$path}OpenSans-Bold.woff2') format('woff2'),
         url('#{$path}OpenSans-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
     src: url('#{$path}OpenSans-ExtraBoldItalic.woff2') format('woff2'),
         url('#{$path}OpenSans-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
     src: url('#{$path}OpenSans-Italic.woff2') format('woff2'),
         url('#{$path}OpenSans-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
     src: url('#{$path}OpenSans-Light.woff2') format('woff2'),
         url('#{$path}OpenSans-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
     src: url('#{$path}OpenSans-Medium.woff2') format('woff2'),
         url('#{$path}OpenSans-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 500;
     src: url('#{$path}OpenSans-MediumItalic.woff2') format('woff2'),
         url('#{$path}OpenSans-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
     src: url('#{$path}OpenSans-LightItalic.woff2') format('woff2'),
         url('#{$path}OpenSans-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
     src: url('#{$path}OpenSans-SemiBold.woff2') format('woff2'),
         url('#{$path}OpenSans-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
     src: url('#{$path}OpenSans-Regular.woff2') format('woff2'),
         url('#{$path}OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
     src: url('#{$path}OpenSans-SemiBoldItalic.woff2') format('woff2'),
         url('#{$path}OpenSans-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
     font-display: swap;
 }
