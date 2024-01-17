@@ -9,10 +9,6 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
 
   const cfg = initCfg(command, mode, ssrBuild)
 
-  // const host = cfg.host;
-
-  // fs.writeFileSync('app.config.json', JSON.stringify(cfg.public));
-
   return {
 
     esbuild: {
@@ -46,11 +42,6 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
 
             return 'js/[name][extname]'
           },
-          // manualChunks(id) {
-          //     if (id.includes('node_modules')) {
-          //         return id.toString().split('node_modules/')[1].split('/')[0].toString();
-          //     }
-          // }
         }
       }
     },
