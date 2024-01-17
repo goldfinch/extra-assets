@@ -4,27 +4,22 @@ $brand-success: #45ac73;
 $brand-danger: #d5041b;
 
 .cms-login-status__profile-link .font-icon-torso {
-
   @extend .bi, .bi-person-circle;
 }
 
 .menu__icon.font-icon-sitemap {
-
   @extend .bi, .bi-box-fill;
 }
 
 .menu__icon.font-icon-page-multiple {
-
   @extend .bi, .bi-megaphone-fill;
 }
 
 .menu__icon.font-icon-database {
-
   @extend .bi, .bi-database-fill;
 }
 
 .menu__icon.font-icon-image {
-
   @extend .bi, .bi-image-fill;
 }
 
@@ -52,7 +47,6 @@ $brand-danger: #d5041b;
 }
 
 .bulk-actions__action.font-icon-edit {
-
   @extend .bi, .bi-pencil-fill;
 
   &::before {
@@ -62,12 +56,10 @@ $brand-danger: #d5041b;
 }
 
 .font-icon-folder-move {
-
   @extend .bi, .bi-folder-symlink;
 }
 
 .font-icon-folder-add {
-
   @extend .bi, .bi-folder-plus;
 }
 
@@ -99,27 +91,22 @@ $brand-danger: #d5041b;
 }
 
 .menu__icon.font-icon-chart-line {
-
   @extend .bi, .bi-bar-chart-fill;
 }
 
 .menu__icon.font-icon-torsos-all {
-
   @extend .bi, .bi-people-fill;
 }
 
 .menu__icon.font-icon-box {
-
   @extend .bi, .bi-archive-fill;
 }
 
 .dropdown-item.font-icon-box {
-
   @extend .bi, .bi-archive-fill;
 }
 
 .action--new.font-icon-plus-thin {
-
   @extend .bi, .bi-plus;
 
   &::before {
@@ -131,7 +118,6 @@ $brand-danger: #d5041b;
 }
 
 .font-icon-right-open.action--next {
-
   @extend .bi, .bi-caret-right-fill;
 
   &::before {
@@ -142,7 +128,6 @@ $brand-danger: #d5041b;
 }
 
 .font-icon-left-open.action--previous {
-
   @extend .bi, .bi-caret-left-fill;
 
   &::before {
@@ -153,76 +138,62 @@ $brand-danger: #d5041b;
 }
 
 .chosen-single.font-icon-edit-write {
-
   @extend .bi, .bi-pencil-square;
 }
 
 .font-icon-edit-write.icon-view {
-
   @extend .bi, .bi-pencil-square;
 }
 
 .font-icon-eye.icon-view {
-
   @extend .bi, .bi-eye-fill;
 }
 
 .font-icon-eye.icon-view {
-
   @extend .bi, .bi-eye-fill;
 }
 
 .font-icon-columns.icon-view {
-
   @extend .bi, .bi-layout-split;
 }
 
 .menu__icon.icon.icon-16.icon-axllent-metaeditor-metaeditor {
-
   @extend .bi, .bi-bar-chart-fill;
 
   background-image: none;
 }
 
 .menu__icon.icon.icon-16.icon-silverstripe-redirectedurls-admin-redirectedurladmin {
-
   @extend .bi, .bi-shuffle;
 
   background-image: none;
 }
 
 .menu__icon.font-icon-cog {
-
   @extend .bi, .bi-gear-wide-connected;
 }
 
 .page-icon.font-icon-page {
-
   @extend .bi, .bi-file-earmark-text-fill;
 }
 
 .page-icon.font-icon-p-error {
-
   @extend .bi, .bi-file-earmark-medical;
 }
 
 .page-icon.font-icon-p-error {
-
   @extend .bi, .bi-file-earmark-medical;
 }
 
 .page-icon.font-icon-p-redirect {
-
   @extend .bi, .bi-file-earmark-arrow-down-fill;
 }
 
 .page-icon.font-icon-p-virtual {
-
   @extend .bi, .bi-file-earmark-break-fill;
 }
 
 .action.font-icon-tick {
-
   @extend .bi, .bi-check2-circle;
 
   // @extend .bi, .bi-check-lg;
@@ -233,7 +204,6 @@ $brand-danger: #d5041b;
 }
 
 .action.font-icon-save {
-
   @extend .bi, .bi-check-circle-fill;
 
   &::before {
@@ -250,7 +220,6 @@ $brand-danger: #d5041b;
 }
 
 .action--delete.font-icon-trash-bin {
-
   @extend .bi, .bi-trash3-fill;
 
   &::before {
@@ -259,14 +228,12 @@ $brand-danger: #d5041b;
 }
 
 .cms-login-status__logout-link.font-icon-logout {
-
   @extend .bi, .bi-sign-turn-right-fill;
 
   font-size: 18px;
 }
 
 .field .chosen-container-single .chosen-single div b {
-
   @extend .bi, .bi-caret-down-fill;
 
   background-image: none !important;
@@ -277,17 +244,15 @@ $brand-danger: #d5041b;
 }
 
 .cms .jstree a ins.jstree-checkbox {
-
   @extend .bi, .bi-square;
 
   &::before {
     position: relative;
-    top: 0
+    top: 0;
   }
 }
 
-.cms .jstree .jstree-checked>a>.jstree-checkbox {
-
+.cms .jstree .jstree-checked > a > .jstree-checkbox {
   @extend .bi, .bi-check-square-fill;
 }
 
@@ -298,7 +263,6 @@ $brand-danger: #d5041b;
 // }
 
 .gallery-item.gallery-item--folder .gallery-item__thumbnail {
-
   @extend .bi, .bi-folder-fill;
 
   background: unset !important;
@@ -312,7 +276,6 @@ $brand-danger: #d5041b;
 }
 
 .gallery__table-image--folder {
-
   @extend .bi, .bi-folder-fill;
 
   width: 24px;
@@ -326,7 +289,6 @@ $brand-danger: #d5041b;
 }
 
 .gallery__table-image--archive {
-
   @extend .bi, .bi-file-earmark-medical-fill;
 
   width: 24px;
@@ -340,7 +302,6 @@ $brand-danger: #d5041b;
 }
 
 .gallery__table-image--audio {
-
   @extend .bi, .bi-file-earmark-music-fill;
 
   width: 24px;
@@ -354,7 +315,6 @@ $brand-danger: #d5041b;
 }
 
 .gallery__table-image--video {
-
   @extend .bi, .bi-file-earmark-play-fill;
 
   width: 24px;
@@ -385,7 +345,6 @@ $brand-danger: #d5041b;
 }
 
 .alert.alert-success {
-
   @extend .bi, .bi-check-circle-fill;
 
   color: $brand-success;
@@ -400,7 +359,6 @@ $brand-danger: #d5041b;
 }
 
 .alert.alert-danger {
-
   @extend .bi, .bi-x-circle-fill;
 
   color: $brand-danger;
@@ -414,13 +372,10 @@ $brand-danger: #d5041b;
   }
 }
 
-
 .font-icon-list {
-
   @extend .bi, .bi-card-list; // .bi-list-task
 
   &::before {
-
   }
 }
 
@@ -431,11 +386,9 @@ $brand-danger: #d5041b;
 }
 
 .font-icon-tree {
-
   @extend .bi, .bi-diagram-3-fill;
 
   &::before {
-
   }
 }
 
@@ -446,7 +399,6 @@ $brand-danger: #d5041b;
 }
 
 .bulk-actions__action.font-icon-folder-move {
-
   @extend .bi, .bi-folder-symlink-fill;
 
   &::before {
@@ -456,13 +408,11 @@ $brand-danger: #d5041b;
 }
 
 .gallery-item__checkbox-label.font-icon-tick {
-
   @extend .bi, .bi-check-lg;
 }
 
 .font-icon-search,
 .search-toggle.font-icon-search {
-
   @extend .bi, .bi-search;
 
   &::before {
@@ -475,7 +425,6 @@ $brand-danger: #d5041b;
 }
 
 .font-icon-cancel {
-
   @extend .bi, .bi-x;
 }
 
@@ -484,12 +433,10 @@ $brand-danger: #d5041b;
 }
 
 .cms-menu__list li .toggle-children .toggle-children-icon {
-
   @extend .bi, .bi-chevron-right;
 }
 
 .sortable-item__handle.font-icon-drag-handle {
-
   @extend .bi, .bi-grip-vertical;
 
   &::before {
@@ -501,14 +448,13 @@ $brand-danger: #d5041b;
 
 // copy grid
 
-.action-menu .dropdown-item[class*="font-icon-plus"]::before {
+.action-menu .dropdown-item[class*='font-icon-plus']::before {
   @extend .bi, .bi-plus-circle-dotted;
 }
 
 // error alerts
 
 .validationerror .panel--padded .ui-tabs-nav .tab-attention {
-
   @extend .bi, .bi-exclamation-circle-fill;
 
   z-index: 1;
@@ -522,7 +468,6 @@ $brand-danger: #d5041b;
 }
 
 .field.holder-required .alert.alert-danger {
-
   @extend .bi, .bi-exclamation-circle-fill;
 
   padding: 10px 10px 14px;
@@ -530,18 +475,17 @@ $brand-danger: #d5041b;
   margin-bottom: 0;
 
   &::before {
-    content: "\f332" !important;
+    content: '\f332' !important;
   }
 }
 
 form.validationerror .panel > .alert.alert-danger {
-
   @extend .bi, .bi-exclamation-circle-fill;
 
   margin-bottom: 30px !important;
 
   &::before {
-    content: "\f332" !important;
+    content: '\f332' !important;
   }
 }
 

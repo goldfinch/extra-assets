@@ -9,14 +9,16 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
   const cfg = initCfg(command, mode, ssrBuild);
 
   return {
-
     esbuild: {
       charset: 'ascii', // fixing issue with unicode HTML entities in content: '';
     },
 
     resolve: {
       alias: {
-        '~bootstrap-icons': path.resolve(__dirname, 'node_modules/bootstrap-icons/icons'),
+        '~bootstrap-icons': path.resolve(
+          __dirname,
+          'node_modules/bootstrap-icons/icons',
+        ),
       },
     },
 
@@ -31,11 +33,13 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
           assetFileNames: (assetInfo) => {
             if (assetInfo.name.endsWith('.css')) {
               return '[name][extname]';
-            } if (
+            }
+            if (
               assetInfo.name.match(/(\.(woff2?|eot|ttf|otf)|font\.svg)(\?.*)?$/)
             ) {
               return 'fonts/[name][extname]';
-            } if (assetInfo.name.match(/\.(jpg|png|svg)$/)) {
+            }
+            if (assetInfo.name.match(/\.(jpg|png|svg)$/)) {
               return 'images/[name][extname]';
             }
 
@@ -46,7 +50,6 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
     },
 
     plugins: [
-
       laravel({
         input: [
           'src/bootstrap-icons.scss',
@@ -80,16 +83,13 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
     ],
 
     css: {
-
       preprocessorOptions: {
         scss: {
           additionalData: cfg.sassAdditionalData,
         },
       },
       postcss: {
-        plugins: [
-          autoprefixer,
-        ],
+        plugins: [autoprefixer],
       },
     },
   };
