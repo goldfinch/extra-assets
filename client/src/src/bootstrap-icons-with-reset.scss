@@ -494,3 +494,14 @@ form.validationerror .panel > .alert.alert-danger {
   margin-top: 10px;
   margin-bottom: 0;
 }
+
+.ui-dialog .ui-dialog-titlebar-close {
+  @extend .bi;
+
+  &::before {
+    content: '\f623';
+  }
+  &::after {
+    content: '\f622';
+  }
+}
