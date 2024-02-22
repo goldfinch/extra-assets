@@ -495,8 +495,18 @@ form.validationerror .panel > .alert.alert-danger {
   margin-bottom: 0;
 }
 
-.ui-dialog .ui-dialog-titlebar-close {
+.ui-dialog .ui-dialog-titlebar-close .ui-button-icon {
   @extend .bi;
+
+  &::before, &::after {
+    @extend .bi;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    color: #43536d;
+  }
 
   &::before {
     content: '\f623';
