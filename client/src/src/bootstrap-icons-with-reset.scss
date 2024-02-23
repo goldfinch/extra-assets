@@ -497,21 +497,39 @@ form.validationerror .panel > .alert.alert-danger {
 
 .ui-dialog .ui-dialog-titlebar-close .ui-button-icon {
   @extend .bi;
+  text-indent: 0;
+  background-image: unset;
+  margin-top: -15px;
+  margin-left: -15px;
 
   &::before, &::after {
-    @extend .bi;
-
+    text-indent: 0;
     position: absolute;
     top: 0;
     left: 0;
     font-size: 30px;
     color: #43536d;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
   }
 
   &::before {
+    opacity: 1;
     content: '\f623';
   }
   &::after {
+    opacity: 0;
+    font-family: bootstrap-icons!important;
     content: '\f622';
+  }
+}
+
+.ui-dialog .ui-dialog-titlebar-close .ui-button-icon:hover,
+.ui-dialog .ui-dialog-titlebar-close:hover .ui-button-icon {
+  &::before {
+    opacity: 0;
+  }
+  &::after {
+    opacity: 1;
   }
 }
