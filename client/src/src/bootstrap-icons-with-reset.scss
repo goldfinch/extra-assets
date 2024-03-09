@@ -2,6 +2,8 @@
 
 $brand-success: #45ac73;
 $brand-danger: #d5041b;
+$brand-info: #b0cbe3;
+$brand-warning: #fdefda;
 
 .cms-login-status__profile-link .font-icon-torso {
   @extend .bi, .bi-person-circle;
@@ -327,13 +329,13 @@ $brand-danger: #d5041b;
   }
 }
 
-.alert.alert-success,
-.alert.alert-danger {
-  margin-bottom: 20px;
-
-  a {
-    text-decoration: none;
-  }
+.alert.alert-success:not([role="alert"]),
+.alert.alert-warning:not([role="alert"]),
+.alert.alert-danger:not([role="alert"]),
+.alert.alert-info:not([role="alert"]),
+.alert.warning:not([role="alert"]),
+.alert.error:not([role="alert"]),
+.alert.info:not([role="alert"]) {
 
   &::before {
     position: relative;
@@ -344,31 +346,77 @@ $brand-danger: #d5041b;
   }
 }
 
-.alert.alert-success {
-  @extend .bi, .bi-check-circle-fill;
-
-  color: $brand-success;
+.alert.alert-success,
+.alert.alert-warning,
+.alert.alert-danger,
+.alert.alert-info,
+.alert.warning,
+.alert.error,
+.alert.info {
+  margin-bottom: 20px;
 
   a {
-    color: darken($brand-success, 10);
+    text-decoration: none;
   }
+}
+
+.alert.alert-success:not([role="alert"]) {
+  @extend .bi, .bi-check-circle-fill;
 
   &::before {
     color: $brand-success;
   }
 }
+.alert.alert-success {
+  color: $brand-success;
 
-.alert.alert-danger {
-  @extend .bi, .bi-x-circle-fill;
+  a {
+    color: darken($brand-success, 10);
+  }
+}
 
+.alert.alert-error:not([role="alert"]), .alert.error:not([role="alert"]) {
+  @extend .bi, .bi-exclamation-circle-fill;
+
+  &::before {
+    color: $brand-danger;
+  }
+}
+.alert.alert-danger, .alert.error {
   color: $brand-danger;
 
   a {
     color: darken($brand-danger, 10);
   }
+}
+
+.alert.alert-info:not([role="alert"]), .alert.info:not([role="alert"]) {
+  @extend .bi, .bi-patch-exclamation-fill;
 
   &::before {
-    color: $brand-danger;
+    color: $brand-info;
+  }
+}
+.alert.alert-info, .alert.info {
+  color: $brand-info;
+
+  a {
+    color: darken($brand-info, 10);
+  }
+}
+
+.alert.alert-warning:not([role="alert"]), .alert.warning:not([role="alert"]) {
+  @extend .bi, .bi-x-circle-fill;
+
+  &::before {
+    color: $brand-warning;
+  }
+}
+.alert.alert-warning, .alert.warning {
+  color: $brand-warning;
+
+  a {
+    color: darken($brand-warning, 10);
   }
 }
 
