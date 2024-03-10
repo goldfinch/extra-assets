@@ -2,7 +2,7 @@
 
 $brand-success: #45ac73;
 $brand-danger: #d5041b;
-$brand-info: #b0cbe3;
+$brand-info: #3e7bb0;
 $brand-warning: #fdefda;
 
 .cms-login-status__profile-link .font-icon-torso {
@@ -391,33 +391,27 @@ $brand-warning: #fdefda;
 }
 
 .alert.alert-info:not([role="alert"]), .alert.info:not([role="alert"]) {
-  @extend .bi, .bi-patch-exclamation-fill;
+  @extend .bi, .bi-info-circle-fill;
 
   &::before {
     color: $brand-info;
   }
 }
 .alert.alert-info, .alert.info {
+  --bs-alert-color: var(--bs-info-text-emphasis);
+  --bs-alert-bg: var(--bs-info-bg-subtle);
+  --bs-alert-border-color: var(--bs-info-border-subtle);
+  --bs-alert-link-color: var(--bs-info-text-emphasis);
+
   color: $brand-info;
 
   a {
-    color: darken($brand-info, 10);
+    color: darken($brand-info, 30);
   }
 }
 
 .alert.alert-warning:not([role="alert"]), .alert.warning:not([role="alert"]) {
-  @extend .bi, .bi-x-circle-fill;
-
-  &::before {
-    color: $brand-warning;
-  }
-}
-.alert.alert-warning, .alert.warning {
-  color: $brand-warning;
-
-  a {
-    color: darken($brand-warning, 10);
-  }
+  @extend .bi, .bi-exclamation-triangle-fill;
 }
 
 .font-icon-list {
@@ -524,13 +518,15 @@ $brand-warning: #fdefda;
 
   &::before {
     content: '\f332' !important;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
   }
 }
 
 form.validationerror .panel > .alert.alert-danger {
   @extend .bi, .bi-exclamation-circle-fill;
-
-  margin-bottom: 30px !important;
 
   &::before {
     content: '\f332' !important;
