@@ -241,7 +241,7 @@ $brand-warning: #fdefda;
   background-image: none !important;
 }
 
-.field .chosen-container-single.chosen-container-active .chosen-single div b {
+.field .chosen-container-single.chosen-with-dropdown .chosen-single div b {
   @extend .bi, .bi-caret-up-fill;
 }
 
